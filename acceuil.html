@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="Shortcut Icon" type="image/ico" href="https://cdn4.iconfinder.com/data/icons/aami-small-locations/30/aami_small-29-512.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https : //fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Briem+Hand:wght@100..900&family=Dancing+Script:wght@400..700&family=Freeman&family=Jaro :opsz@6..72&family=Jersey+25&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&display=swap" rel="stylesheet" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <title>Dream achive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jersey+25&family=Oswald:wght@200..700&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="acceuil.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo">Dream Achive</div>
+      <div class="nav-links">
+        
+        <ul class="links">
+          <li><a href="acceuil.html">A propos De Nous</a></li>
+          <li>
+            <a href="#">Programmes</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="tab-bac.html">Licence</a></li>
+              <li><a href="master-tab.html">Master</a></li>
+              <li><a href="tab-doc.html">Doctorat</a></li>
+            </ul>
+          </li>
+          
+          <li><a href="#partenaires">Partenaires</a></li>
+          <li>
+            <a href="#" onclick="toggleTranslate()">Langues</a>
+            <ul>
+              <div id="google_translate_element"></div>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+              <script type="text/javascript">
+                  function googleTranslateElementInit() {
+                      // Le code pour initialiser Google Translate est inchangé
+                      new google.translate.TranslateElement({
+                          pageLanguage: 'en',
+                          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                      }, 'google_translate_element');
+                  }
+          
+                  // Fonction pour changer de langue
+                  function changeLanguage(lang) {
+                      var element = document.getElementById('google_translate_element');
+                      var translate = new google.translate.TranslateElement({
+                          pageLanguage: 'en',
+                          includedLanguages: lang
+                      }, 'google_translate_element');
+                      translate.translatePage(lang);
+                  }
+          
+                  // Fonction pour basculer l'affichage de la barre de traduction
+                  function toggleTranslate() {
+                      var translateElement = document.getElementById('google_translate_element');
+                      if (translateElement.style.display === 'none') {
+                          translateElement.style.display = 'block';
+                      } else {
+                          translateElement.style.display = 'none';
+                      }
+                  }
+              </script>
+            </ul>
+        </li>
+        <!-- Fin de votre code existant -->
+    
+        <!-- Code Google Translate API -->
+     
+          <li><a href="test.html">Se connecter</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </nav>
+    
+    <div class="back"></div> 
+  
+      
+ <section class="sec">  
+  <div class="shape">
+        <div class="shapee">  </div>         
+        <div class="shapeee"></div>  
+        <div class="pa"> 
+        <h1 class="titlr-pre">Dream achive</h1>
+        <p>-Votre clé vers un avenir brillant et prometteur.</p>
+        <button type="button" class="btn btn1"><a href="test.html">Inscrivez-Vous</a></button>
+       </div>        
+    </div>
+   </section>
+   <section class="deuxsec">
+          <div class="container">
+            <div class="cintent-section">
+              <h1 class="titel-deu">A Propos De Nous</h1>
+                 <h3>Bienvenue chez ScholarSphere, où votre avenir brillant commence ! Nous sommes là pour vous guider vers les opportunités de bourses d'études les plus prometteuses. Avec nous, chaque étape de votre parcours éducatif devient une aventure passionnante. Rejoignez-nous dès aujourd'hui et laissez vos rêves prendre leur envol !</h3>
+            </div>
+          </div>
+          <div class="image-secdeux">
+            <img src="https://i.pinimg.com/564x/fe/79/f6/fe79f6715b1e37a88864e42f0c24c714.jpg">
+          </div>
+</section>
+<section class="sect-univr" id="partenaires">
+  <div class="swiper mySwiper">
+    <div class="content swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://um6p.ma/fr">
+            <img src="ump.png" alt="" id="ump">
+          </a>
+        </div>
+        <div class="cdetail">
+          <h2>UM6P Université</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"UMP6, le joyau de l'éducation au Maroc, où la qualité de l'enseignement rencontre l'ouverture sur le monde grâce à des bourses attractives pour les étudiants talentueux!"</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://www.metu.edu.tr/">
+            <img src="orta.jpg" alt="" class="ortaa" style="margin-top: -10px;">
+          </a>
+        </div>
+        <div class="cdetail">
+          <h2>METU Université</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"Orta Turke, le foyer de l'innovation éducative en Turquie, où la tradition rencontre la modernité avec des possibilités de bourses pour réaliser vos aspirations académiques." </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://www.ox.ac.uk/">
+            <img src="oxford.jpg" alt="" style="height: 178px; margin-top: 88px;" class="oxfordd">
+          </a>
+        </div>
+        <div class="cdetail oxfordd">
+          <h2>Université d'Oxford</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"Un bastion d'excellence académique, où l'innovation rencontre la tradition, façonnant les esprits brillants de demain. Au cœur de ses collèges historiques, une communauté dynamique s'épanouit, offrant un terreau fertile pour les idées."</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://www.utoronto.ca/">
+            <img src="toronto-fotor-bg-remover-2024042613024.png" alt="" style="height: 180px; margin-top: 55px;" class="toronot">
+          </a>
+        </div>
+        <div class="cdetail">
+          <h2>Toronto Université</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"Un foyer d'excellence académique et de diversité, où la culture de l'innovation rencontre une communauté dynamique, offrant ainsi un environnement d'apprentissage enrichissant et inclusif pour façonner les leaders de demain."</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://www.harvard.edu/">
+            <img src="ha.png" alt="" style="height: 176px; margin-top: 35px;" class="harvard">
+          </a>
+        </div>
+        <div class="cdetail">
+          <h2>Harvard Université</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"Alliance entre excellence académique et innovation, forgeant les leaders de demain dans un cadre empreint de tradition, tout en offrant des opportunités exceptionnelles d'apprentissage et de croissance personnelle."</p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="cimg">
+          <a href="https://www.kau.edu.sa/home_english.aspx">
+            <img src="saudite.png" alt="" style="height: 175px; margin-top: 50px;">
+          </a>
+        </div>
+        <div class="cdetail">
+          <h2>Roi Abdulaziz Université</h2>
+          <br>
+          <br>
+          <br><br>
+          <p>"Université Roi Abdelaziz, une oasis du savoir en Arabie Saoudite, offrant une éducation de classe mondiale avec des opportunités de bourses pour les esprits ambitieux."</p>
+        </div>
+      </div>
+  
+  </div>
+  </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</section>
+<section class="sect-trois">
+  <div class="world-map">
+    <img src="worldmap.png" alt=""> 
+    <div class="pin usa">
+      <span>United States</span>
+  </div>
+  <div class="pin france">
+      <span>France</span>
+  </div>
+  <div class="pin sweden">
+      <span>Sweden</span>
+  </div>
+  <div class="pin south-africa">
+      <span>South Africa</span>
+  </div>
+  <div class="pin brazil">
+      <span>Brazil</span>
+  </div>
+  <div class="pin china">
+      <span>China</span>
+  </div>
+  <div class="pin canada">
+      <span>Canada</span>
+  </div>
+  <div class="pin turk">
+      <span>Turkey</span>
+  </div>
+  <div class="pin maroc">
+      <span>Maroc</span>
+  </div>
+  <div class="pin russia">
+      <span>Russia</span>
+  </div>
+  <div class="pin saudi-arabia">
+    <span>Saudi Arabia</span>
+  </div>
+  <div class="pin qatar">
+    <span>Qatar</span>
+  </div>
+  <div class="content-maps">
+    <div id="titre-map">
+      <span>E</span>
+      <span>x</span>
+      <span>p</span>
+      <span>l</span>
+      <span>o</span>
+      <span>r</span>
+      <span>e</span>
+      <span>z</span>
+      <span> </span>
+      <span> </span>
+      <span>l</span>
+      <span>a</span>
+      <span> </span>
+      <span> </span>
+      <span>p</span>
+      <span>l</span>
+      <span>a</span>
+      <span>n</span>
+      <span>è</span>
+      <span>t</span>
+      <span>e</span>
+  </div>
+     <br>
+    <br>
+    <div class="parag">
+    <p>Naviguez vers les bourses mondiales,
+      Embarquez pour votre avenir académique,
+      et découvrez le monde qui vous attend !</p>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="mini-sect">
+   <h1 id="counter"><strong>+20000 Etudiants chaque année bénéficient de notre engagement à réaliser leurs aspirations académiques</strong></h1>
+</section>
+<section class="quatr-sect">
+  <div class="mySwiper-deux">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJMxJ8IAe4aErcYP3IDcgOf7BRySIaPnuT34HH4x2G4Q&s" alt="et" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <br>
+            <h2 class="name">Yasmin Al-Mansour</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="description">Grâce à Dream Achieve, j'ai obtenu une bourse qui a allégé le fardeau financier de mes études en génie civil, me permettant de réaliser mon rêve d'être ingénieure.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCA2i_KADl7XZFOQ9jMoknymWh-VOR8cuAlCMv_C9RjA&s" alt="et" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <br>
+            <h2 class="name">Ahmed Al-Farsi</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="description">Je suis reconnaissant envers Dream Achieve pour leur engagement inébranlable à soutenir les étudiants. Leur travail a changé ma vie et celle de nombreux autres.</p>
+          </div>
+        </div>
+      </div>   <div class="swiper-slide">
+        <div class="card">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTEwL3Jhd3BpeGVsX29mZmljZV8zNV9oYXBweV9ibGFja193b21hbl9zbWlsZXNfYXRfY2FtZXJhX2lzb2xhdGVkX182Nzc5ZmU0OC1lMmJiLTQxMmYtOGE3OC1jNzQ2ZmFmNjQxM2VfMS5qcGc.jpg" alt="et" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <br>
+            <h2 class="name">Fatima El-Manshl</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="description">Dream Achieve a été un véritable catalyseur pour mes aspirations académiques. Leur dévouement à fournir des opportunités éducatives a fait toute la différence dans mon parcours.</p>
+          </div>
+        </div>
+      </div>   
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="https://www.shutterstock.com/image-photo/young-handsome-man-beard-wearing-600nw-1640944705.jpg" alt="et" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+
+            <h2 class="name">Youssef Abdel-Rahman</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="description">Merci à Dream Achieve pour leur soutien continu. Leur aide précieuse a ouvert des portes que je pensais autrefois inaccessibles.</p>
+          </div>
+        </div>
+      </div>  
+       <div class="swiper-slide">
+        <div class="card">
+          <div class="image-content">
+            <span class="overlay"></span>
+            <div class="card-image">
+              <img src="data:image/jpeg;base64,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" alt="et" class="card-img">
+            </div>
+          </div>
+          <div class="card-content">
+            <br>
+            <h2 class="name">Leila Al-Hassan</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="description">Je suis profondément reconnaissante envers Dream Achieve pour leur dévouement à soutenir les étudiants du monde entier. Leur impact positif sur la communauté éducative est indéniable.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Ajoutez les autres cartes de la même manière -->
+    </div>
+  </div>
+</section>
+<section class="sect-snq">
+
+    <div class="card-container-r">
+      <div class="card-un">
+        <div class="front-content-un">
+          <img class="heading" src="clipart-youtube-logo-photo-16.png">
+        </div>
+        <div class="contentii">
+          <p class="heading">Youtube</p>
+          <p class="text">DreamAchieve</p>
+        </div>
+      </div>
+      <div class="card-deux">
+        <div class="front-content-deux">
+          <img class="heading" src="83-836834_like-us-on-facebook-small-facebook-icon-png-removebg-preview.png">
+        </div>
+        <div class="contentii">
+          <p class="heading">Facebook</p>
+          <p class="text">Dream-Achieve</p>
+        </div>
+      </div>
+      <div class="card-trois">
+        <div class="front-content-trois">
+          <img class="heading" src="1000_F_298315933_FdK3b8wCs7EhYWlJqieSvmSgTOr9MSfR-removebg-preview.png">
+        </div>
+        <div class="contentii">
+          <p class="heading">Instagram</p>
+          <p class="text">@DreamAchieve</p>
+        </div>
+      </div>
+    </div>
+</section>
+<div class="container-rr">
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section about">
+        <h2>A propos de nous</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p style="font-family:'Baloo Thambi'; font-size: 18px;">Dream Achieve s'engage à rendre l'éducation supérieure accessible à tous en offrant des ressources .</p>
+        <div class="contact">
+          <span><i class="fas fa-envelope"></i> DreamAchive@gmail.com</span>
+          <br>
+          <br>
+          <span><i class="fas fa-phone"></i> +216754800710</span>
+        </div>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h2>Liens Rapides</h2>
+        <ul>
+          <li><a href="#">A propos de nous</a></li>
+          <li><a href="#">Bourse d'études</a></li>
+          <li><a href="#">Programmes</a></li>
+          <li><a href="#">Les partenaires</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section contact-form">
+        <h2>Contacter Nous</h2>
+        <form action="#">
+          <input type="email" name="email" class="text-input contact-input" placeholder="votre email address">
+          <textarea name="message" class="text-input contact-input" placeholder="Votre message"></textarea>
+          <button type="submit" class="bton bton-primary">Envoyer</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 DreamAchive. Tous droits réservés.
+    </div>
+  </footer>
+</div>
+<div class="parent">
+  <div class="childee childee-1">
+    <button class="buttone btn-1">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#1e90ff"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+  </button>
+  </div>
+  <div class="childee childee-2">
+    <button class="buttone btn-2">
+  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="#ff00ff"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></button>
+  </div>
+  <div class="childee childee-4">
+    <button class="buttone btn-4">
+  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" fill="#4267B2"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></button>
+  </div>
+  </div>
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDown = document.querySelector('.dropdown_menu');
+
+    toggleBtn.onclick = function() {
+        dropDown.classList.toggle('open');
+        toggleBtnIcon.classList.toggle('bx-menu');
+        toggleBtnIcon.classList.toggle('bx-x'); 
+    };
+
+    window.addEventListener("resize", function() {
+        if (window.innerWidth > 1100) { // Changer 768 à la largeur où vous souhaitez que le menu disparaisse
+            dropDown.classList.remove('open');
+            toggleBtnIcon.classList.remove('bx-x');
+            toggleBtnIcon.classList.add('bx-menu');
+        }
+    });
+});
+  
+</script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 20,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: ".swiper-button-next", // Ajout du bouton suivant
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+<script>
+  var swiper = new Swiper(".mySwiper-deux", {
+    slidesPerView: 3,
+    spaceBetween: 150,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+<script>
+  // Sélectionner l'élément HTML avec l'id "counter"
+const counterElement = document.getElementById("counter");
+
+// Définir la valeur initiale du compteur
+let count = 2000;
+const finalCount = 2100; // Valeur finale du compteur
+
+// Fonction pour mettre à jour le compteur et l'afficher
+function updateCounter() {
+  // Vérifier si le compteur a atteint la valeur finale
+  if (count < finalCount) {
+    // Incrémenter le compteur
+    count++;
+    // Afficher le compteur dans l'élément HTML
+    counterElement.textContent ="+" + count+" "+"Etudiants chaque année bénéficient de notre engagement à réaliser leurs aspirations académiques";
+  }
+}
+
+// Mettre à jour le compteur toutes les 100 millisecondes
+const intervalId = setInterval(updateCounter, 100);
+
+// Arrêter la mise à jour lorsque le compteur atteint la valeur finale
+setTimeout(() => clearInterval(intervalId), (finalCount - 2000) * 100);
+
+</script>
+
+<script>let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+	let navLinks = document.querySelector(".nav-links");
+	
+	menuOpenBtn.addEventListener("click", function() {
+	  if (navLinks.style.left === "-100%") {
+		navLinks.style.left = "0";
+	  } else {
+		navLinks.style.left = "-100%";
+	  }
+	  
+	});
+	
+  </script>
+  <script>
+    // Votre script JavaScript existant ici
+
+    // Nouveau script pour afficher/masquer les sous-menus
+    const arrows = document.querySelectorAll('.arrow');
+    arrows.forEach(arrow => {
+      arrow.addEventListener('click', () => {
+        const subMenu = arrow.nextElementSibling;
+        const isVisible = subMenu.style.display === 'block';
+        if (isVisible) {
+          subMenu.style.display = 'none';
+        } else {
+          subMenu.style.display = 'block';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="https : //fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Briem+Hand:wght@100..900&family=Dancing+Script:wght@400..700&family=Freeman&family=Jaro :opsz@6..72&family=Jersey+25&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&display=swap" rel="stylesheet" >
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Rubik+Scribble&display=swap" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <title>Dream achive</title>
+        <link rel="stylesheet" href="tab-mas.css">
+        <link rel="Shortcut Icon" type="image/ico" href="https://cdn4.iconfinder.com/data/icons/aami-small-locations/30/aami_small-29-512.png">
+        <link rel="stylesheet" href="acceuil.css">
+        <link href="https : //fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&family=Dancing+Script:wght@400..700&family=Jersey+25&family=Oswald:wght@200..700&family=Playfair +Display:ital,wght@0,400..900;1,400..900&family=Rubik+Scribble&display=swap" rel="stylesheet">
+    </head>
+    <body class="area" >
+      <nav>
+        <div class="navbar">
+          <i class='bx bx-menu'></i>
+          <div class="logo">Dream Achive</div>
+          <div class="nav-links">
+            
+            <ul class="links">
+              <li><a href="acceuil.html">A propos De Nous</a></li>
+              <li>
+                <a href="#">Programmes</a>
+                <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+                <ul class="htmlCss-sub-menu sub-menu">
+                  <li><a href="tab-bac.html">Licence</a></li>
+                  <li><a href="master-tab.html">Master</a></li>
+                  <li><a href="tab-doc.html">Doctorat</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="#partenaires">Partenaires</a></li>
+              <li>
+                <a href="#" onclick="toggleTranslate()">Langues</a>
+                <ul>
+                  <div id="google_translate_element"></div>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                  <script type="text/javascript">
+                      function googleTranslateElementInit() {
+                          // Le code pour initialiser Google Translate est inchangé
+                          new google.translate.TranslateElement({
+                              pageLanguage: 'en',
+                              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                          }, 'google_translate_element');
+                      }
+              
+                      // Fonction pour changer de langue
+                      function changeLanguage(lang) {
+                          var element = document.getElementById('google_translate_element');
+                          var translate = new google.translate.TranslateElement({
+                              pageLanguage: 'en',
+                              includedLanguages: lang
+                          }, 'google_translate_element');
+                          translate.translatePage(lang);
+                      }
+              
+                      // Fonction pour basculer l'affichage de la barre de traduction
+                      function toggleTranslate() {
+                          var translateElement = document.getElementById('google_translate_element');
+                          if (translateElement.style.display === 'none') {
+                              translateElement.style.display = 'block';
+                          } else {
+                              translateElement.style.display = 'none';
+                          }
+                      }
+                  </script>
+                </ul>
+            </li>
+            <!-- Fin de votre code existant -->
+        
+            <!-- Code Google Translate API -->
+         
+              <li><a href="test.html">Se connecter</a></li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+        <div class="o">
+              <h1><span class="blue"></span>Master<span class="blue"></span> <span class="yellow">Conditions</pan></h1>
+            <table class="container-tab">
+                <thead>
+                    <tr>
+                        <th>Âge minimal:</th>
+                        <th>Âge maximal:</th>
+                        <th>Niveau d'étude:</th>
+                        <th>Langues obligatoires:</th>
+                        <th>Bourse mensuelle:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>22 ans</td>
+                        <td>30 ans</td>
+                        <td>bac+3 minimum</td>
+                        <td>français+Anglais</td>
+                        <td> 500€</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btoon"><a href="master.html">S'inscrire</a> </button>
+            <img src="instagram_publication_de_Bonne_semaine_-removebg-preview.png">
+            
+    <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
+</div>
+</script>
+
+<script>let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+	let navLinks = document.querySelector(".nav-links");
+	
+	menuOpenBtn.addEventListener("click", function() {
+	  if (navLinks.style.left === "-100%") {
+		navLinks.style.left = "0";
+	  } else {
+		navLinks.style.left = "-100%";
+	  }
+	  
+	});
+	
+  </script>
+  <script>
+    // Votre script JavaScript existant ici
+
+    // Nouveau script pour afficher/masquer les sous-menus
+    const arrows = document.querySelectorAll('.arrow');
+    arrows.forEach(arrow => {
+      arrow.addEventListener('click', () => {
+        const subMenu = arrow.nextElementSibling;
+        const isVisible = subMenu.style.display === 'block';
+        if (isVisible) {
+          subMenu.style.display = 'none';
+        } else {
+          subMenu.style.display = 'block';
+        }
+      });
+    });
+  </script>
+    </body>
+</html>
